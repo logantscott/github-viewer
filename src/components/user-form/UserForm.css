@@ -1,0 +1,10 @@
+.UserForm {
+  input {
+    padding: 0.5rem;
+    margin: 1rem;
+  }
+
+  button {
+    padding: 0.5rem;
+  }
+}
