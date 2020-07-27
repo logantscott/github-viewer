@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserRepos component renders UserRepos 1`] = `
+<Fragment>
+  <h2
+    style={
+      Object {
+        "margin": "10px 0 5px 0",
+      }
+    }
+  >
+    Repositories
+  </h2>
+  <table
+    className="UserRepos"
+    style={
+      Object {
+        "borderCollapse": "collapse",
+      }
+    }
+  >
+    <thead>
+      <td>
+        id
+      </td>
+      <td>
+        name
+      </td>
+      <td>
+        language
+      </td>
+      <td>
+        created_at
+      </td>
+      <td>
+        udpated_at
+      </td>
+      <td>
+        homepage
+      </td>
+      <td>
+        description
+      </td>
+    </thead>
+    <tr
+      key="12345678"
+    >
+      <td>
+        1234
+      </td>
+      <td>
+        <a
+          href="someurl"
+        >
+          myRepo
+        </a>
+      </td>
+      <td>
+        english
+      </td>
+      <td>
+        yesterday
+      </td>
+      <td>
+        today
+      </td>
+      <td>
+        someotherurl
+      </td>
+      <td />
+    </tr>
+  </table>
+</Fragment>
+`;

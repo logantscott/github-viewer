@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetails component renders UserDetails 1`] = `
+<div
+  className="UserDetails"
+>
+  <a
+    href="https://github.com/logantscott"
+  >
+    <img
+      alt="logantscott"
+      src="https://avatars2.githubusercontent.com/u/57209519?s=460&u=8fad17c44cbb8ea89b7fc34c8475dd4d181a9604&v=4"
+    />
+  </a>
+  <a
+    href="https://github.com/logantscott"
+  >
+    <h2>
+      logantscott
+    </h2>
+  </a>
+  <p>
+    Followers: 
+    1
+    , Following: 
+    2
+  </p>
+</div>
+`;
