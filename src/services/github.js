@@ -14,3 +14,38 @@ export const userLookup = (login) => {
       following: following
     }));
 };
+
+export const userRepos = (login) => {
+  return fetch(`https://api.github.com/users/${login}/repos`, {
+    method: 'GET',
+    headers: {
+      'User-Agent': 'fetch-api'
+    }
+  })
+    .then(res => res.json())
+    .then((repos) => (
+      repos.map(({
+        id,
+        node_id,
+        name,
+        html_url,
+        description,
+        created_at,
+        updated_at,
+        homepage,
+        size,
+        language
+      }) => ({
+        id,
+        node_id,
+        name,
+        html_url,
+        description,
+        created_at,
+        updated_at,
+        homepage,
+        size,
+        language
+      }))
+    ));
+};
