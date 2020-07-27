@@ -1,4 +1,4 @@
-export const userDetails = (login) => {
+export const userLookup = (login) => {
   return fetch(`https://api.github.com/users/${login}`, {
     method: 'GET',
     headers: {
